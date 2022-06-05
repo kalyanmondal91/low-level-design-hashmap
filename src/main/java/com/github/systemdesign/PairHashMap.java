@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class HashMap<K,V> implements Map<K,V>{
+public class PairHashMap<K,V> implements Map<K,V>{
     private final int MAX_LEN = 100000;
     private List<Pair<K, V>>[] map;
 
-    public HashMap() {
+    public PairHashMap() {
         map = new ArrayList[MAX_LEN];
     }
 

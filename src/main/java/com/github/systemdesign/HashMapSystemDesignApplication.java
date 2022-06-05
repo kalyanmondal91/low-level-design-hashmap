@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SystemDesignApplication {
+public class HashMapSystemDesignApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SystemDesignApplication.class, args);
+		SpringApplication.run(HashMapSystemDesignApplication.class, args);
 	}
 
 }

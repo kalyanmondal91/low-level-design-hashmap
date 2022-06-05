@@ -8,7 +8,7 @@ public class AppRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Map<Integer, String> map = new HashMap<>();
+        Map<Integer, String> map = new EntryHashMap<>();
         map.put(1, "One");
         map.put(2, "Two");
         map.put(3, "Three");
